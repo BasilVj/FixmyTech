@@ -18,19 +18,19 @@ function Home_services() {
         <div className="our__services-img">
           <img src={constants.keyboard} alt="" />
           <div className="service__name">
-            <p>Install Windows OS</p>
+            <p>Keyboard Issues</p>
           </div>
         </div>
         <div className="our__services-img">
           <img src={constants.pc_build} alt="" />
           <div className="service__name">
-            <p>Install Windows OS</p>
+            <p>PC Build</p>
           </div>
         </div>
         <div className="our__services-img">
           <img src={constants.port} alt="" />
           <div className="service__name">
-            <p>Install Windows OS</p>
+            <p>Port Issues</p>
           </div>
         </div>
       </div>
