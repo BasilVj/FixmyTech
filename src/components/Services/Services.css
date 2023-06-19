@@ -1,0 +1,28 @@
+.app__services {
+    background: rgba(193, 231, 247, 0.507);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width:1300px) {
+
+    .app__services {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+
+}
+@media screen and (max-width:1150px) {
+
+    .app__services {
+        
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    
+    }
+  
+}

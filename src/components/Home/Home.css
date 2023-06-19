@@ -1,0 +1,50 @@
+
+.app__home{
+    background: rgba(193, 231, 247, 0.507);
+
+}
+
+.app__home-h1 {
+    letter-spacing: 0.04em;
+    line-height: 127px;
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 78vh;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .app__wrapper {
+      flex-direction: column;
+    }
+    .app__home-h1 {
+        
+        line-height: 107px;
+        
+        font-size: 3rem;
+        
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__home{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .app__home-h1 {
+        
+        line-height: 80px;
+        
+        font-size: 2.5rem;
+        
+    }
+}

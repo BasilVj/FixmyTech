@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.about-us-wrapper {
+    background: rgba(193, 231, 247, 0.507);
+    background-size: 200% 200%;
+    background-position: bottom right;
+}
+
+.about-us-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.about-us-headtext{
+    border-bottom: 1px solid black;
+}
+
+.about-us-intro-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-intro {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.about-us-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.why-us-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.why-us-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.intro__headtext {
+    width: 100%;
+    font-size: 1.48rem;
+    margin-bottom: 5px;
+
+}
+
+.intro__para-wrapper {
+    margin-top: .5rem;
+}
+
+.intro__para {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.why-us-paragraph {
+    margin-top: 2rem;
+}
+
+.why-us-para {
+
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.about__wrapper_img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.about__wrapper_img img {
+    width: 100%;
+}
+
+.why-us__wrapper_img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.why-us__wrapper_img img {
+    width: 90%;
+}
+
+@media screen and (max-width:1150px) {
+    .about-us-intro-container {
+        flex-direction: column;
+    }
+
+    .about__wrapper_img {
+        margin: 0;
+    }
+
+    .why-us__wrapper_img img {
+        width: 100%;
+    }
+
+    .about-us-container1 {
+        margin-bottom: 3rem;
+    }
+
+    .why-us-container {
+
+        flex-direction: column;
+    }
+
+    .why-us-paragraph {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .intro__headtext {
+        font-size: .979rem;
+    }
+
+    .intro__para {
+        font-size: .979rem;
+
+    }
+
+    .why-us-para {
+        font-size: .979rem;
+    }
+
+    .whyUs-heading {
+        font-size: 1.7rem;
+    }
+
+    .why-us-paragraph {
+        margin-top: 1rem;
+    }
+
+    
+}

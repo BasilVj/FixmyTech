@@ -1,0 +1,42 @@
+.service__container {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 200px;
+  margin-right: 1.20rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.service__container:hover{
+transform: scale(1.1);
+}
+
+.service__img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.service__img img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.service__name {
+  padding: 5px;
+}
+
+
+
+@media screen and (max-width:650px) {
+  .service__container {
+    width: 80vw;
+    margin-right: 0rem;
+  }
+}
